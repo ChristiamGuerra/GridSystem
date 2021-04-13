@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+/* Christiam Guerra */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* BORDER BOX: que los bloques tengan de w/h exactamento lo que queremos */
+
+* {
+	box-sizing: border-box;
+}
+
+.encabezado {
+	border: 5px solid red;
+	padding: 20px;
+	text-align: center;
+}
+
+/* ---------------- MEDIA QUERIES -----------------*/
+
+/* Extra Small / Telefonos pequeños de menos de 600px */
+@media only screen and (max-width: 600px) {
+	.encabezado {
+		background-color: #F00034;
+	}
+	
+	.col-1 { width: 8.33%}
+	.col-2 { width: 16.66%}
+	.col-3 { width: 25%}
+	.col-4 { width: 33.33%}
+	.col-5 { width: 41.66%}
+	.col-6 { width: 50%}
+	.col-7 { width: 58.33%}
+	.col-8 { width: 100%}
+	.col-9
+	.col-10
+	.col-11
+	.col-12 { width: 100%}
+	
+	
+}
+
+
+/* SMALL Devices / 601px para arriba */
+
+@media only screen and (min-width: 601px) {
+
+}
+
+
+/* MEDIUM DEVICES */
+@media only screen and (min-width: 768px) {
+	.encabezado {
+		background-color: #F0EF00;
+	}
+	
+}
+
+
+/* LARGE DEVICES */
+@media only screen and (min-width: 992px) {
+	
+}
+
+
+
+/* EXTRA LARGE DEVICES */
+@media only screen and (min-width: 1200px) {
+	.encabezado {
+		background-color: #4197FF;
+	}
+	
+}
